@@ -10,12 +10,13 @@ This implementation of the K-Nearest Neighbours algorithm can be broken down int
     4. Return the prediction.
 
 ## Dataset
-The chosen [Digit Recognizer](https://www.kaggle.com/c/digit-recognizer/overview) dataset contains 40,000 samples of 28x28 images each of which contain a handwritten numerical digit. Note: the dataset used is the *"train.csv"* which was partitioned into a training subset and a testing subset.
+The dataset [Digit Recognizer](https://www.kaggle.com/c/digit-recognizer/overview) contains 40,000 samples of 28x28 images each of which represent a handwritten numerical digit. Note: the dataset used is the *"train.csv"* which was partitioned into a training subset and a testing subset.
 
 ## Results
 In order to evaluate this implementation of K-Nearest Neighbours an experiment was run using 35,000 training samples, 250 test samples and a K value of 7. This implementation was able to correctly classify the handwritten digit 81.53% of the time.
 
 ## Execution
+Download the dataset and copy it into the *data/* directory. Rename the file to *"dataset.csv"* then from the command line run:
 `python main.py`
 
 ## Reference Materials
