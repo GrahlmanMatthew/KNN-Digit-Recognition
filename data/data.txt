@@ -1,1 +1,1 @@
-data
+Download the dataset from the link provided in the README.md and copy it into the data/ directory. Rename the file "dataset.csv" before attempting to execute the code.
